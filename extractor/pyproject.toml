@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "extractor"
+version = "0.1.0"
+description = ""
+authors = ["EnderHane <53217585+EnderHane@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = {extras = ["all"], version = "^0.6.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
